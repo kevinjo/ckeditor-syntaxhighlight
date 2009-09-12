@@ -1,0 +1,16 @@
+#summary Quick install guide
+#labels Featured,Phase-Deploy
+
+= Introduction =
+This is a brief install guide for the ckeditor syntaxhighlight plugin. Beyond copying the plugin directory into your ckeditor installation, help on the rest can be located in the ckeditor documentation.
+
+= Steps =
+
+  # Checkout or download the ckeditor-syntaxhighlight source
+  # Copy the plugins/syntaxhighlight directory into your ckeditor install directory under plugins
+  # Update your ckeditor configuration to use this plugin
+{{{
+config.extraPlugins = 'syntaxhighlight';
+config.toolbar_Full.push(['Code']);
+}}}
+  # Celebrate
